@@ -221,6 +221,8 @@
       "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/models/studio.rb": {
         "lines": [
           1,
+          1,
+          1,
           null
         ]
       },
@@ -230,8 +232,21 @@
           1,
           null
         ]
+      },
+      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/models/movie.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+
+        ]
       }
     },
-    "timestamp": 1590160911
+    "timestamp": 1590162045
   }
 }
