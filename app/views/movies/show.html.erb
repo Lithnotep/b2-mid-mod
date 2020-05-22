@@ -2,8 +2,10 @@
 <p>Made in <%= @movie.creation_year %>.</p>
 <p>Genre: <%= @movie.genre %></p>
 <ol>
-  <% @movie.actors.each do |actor| %>
-    <li>Actors: <%= actor.name %></li>
+
+
+<% @movie.actors.order('age ASC, name').each do |actor| %>
+  <li><%= actor.name %></li>
   <% end %>
 </ol>
-<p>Average Actor Age:<%= Actor.average(:age) %></p>
+<p>Average Actor Age: <%= @movie.actors.average(:age).round(1) %></p>
