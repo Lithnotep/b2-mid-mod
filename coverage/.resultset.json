@@ -208,7 +208,7 @@
           null,
           null,
           1,
-          null,
+          1,
           null
         ]
       },
@@ -238,6 +238,45 @@
           1,
           1,
           1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/models/actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/models/movie_actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/controllers/movies_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       },
@@ -251,15 +290,8 @@
           null,
           null
         ]
-      },
-      "/Users/millmer/Documents/turing/mod_2/b2-mid-mod/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1590162695
+    "timestamp": 1590166328
   }
 }
