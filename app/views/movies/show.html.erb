@@ -1,4 +1,15 @@
 <h1><%= @movie.title %></h1>
+
+<section>
+
+<%= form_tag("/movies/#{@movie.id}/actors", method: :post) do %>
+<%= label_tag "Add Actor" %>
+<%= text_field_tag :name %><br/>
+
+<%= submit_tag "Submit" %>
+<% end %>
+</section>
+
 <p>Made in <%= @movie.creation_year %>.</p>
 <p>Genre: <%= @movie.genre %></p>
 <ol>

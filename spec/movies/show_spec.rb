@@ -34,9 +34,10 @@ describe 'Movies show page', type: :feature do
 
       visit "/movies/#{movie_1.id}"
       expect(page).to_not have_content("Katie")
-      fill_in :name with: "Katie"
-      expect(page).to have_content"Katie")
+      fill_in :name, with: "Katie"
+      click_on "Submit"
 
+      expect(page).to have_content("Katie")
     end
   end
 end
